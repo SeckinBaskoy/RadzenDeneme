@@ -1,0 +1,362 @@
+{
+  "access": [],
+  "components": [
+    {
+      "components": [
+        {
+          "name": "pageTitle",
+          "size": "H3",
+          "text": "HASTA KAYNAKLI ise ALT NEDENLER",
+          "type": "heading"
+        },
+        {
+          "components": [
+            {
+              "components": [
+                {
+                  "class": "col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6",
+                  "components": [
+                    {
+                      "component": "checkbox0",
+                      "name": "label0",
+                      "text": "Ortastatik hipotansiyon",
+                      "type": "label"
+                    },
+                    {
+                      "name": "TemelNeden1AltNeden1",
+                      "style": {
+                        "float": "right",
+                        "marginLeft": "10px"
+                      },
+                      "type": "checkbox",
+                      "value": ""
+                    }
+                  ],
+                  "name": "col0",
+                  "type": "col"
+                },
+                {
+                  "class": "col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6",
+                  "components": [
+                    {
+                      "cols": 30,
+                      "name": "TemelNeden1AltNeden1Aciklama",
+                      "rows": 2,
+                      "type": "textarea",
+                      "value": ""
+                    }
+                  ],
+                  "name": "col1",
+                  "type": "col"
+                }
+              ],
+              "name": "row0",
+              "type": "row"
+            },
+            {
+              "components": [
+                {
+                  "class": "col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6",
+                  "components": [
+                    {
+                      "component": "TemelNeden1AltNeden2",
+                      "name": "label5",
+                      "text": "Ağırlık merkezini kaybetme",
+                      "type": "label"
+                    },
+                    {
+                      "name": "TemelNeden1AltNeden2",
+                      "style": {
+                        "float": "right",
+                        "marginLeft": "10px"
+                      },
+                      "type": "checkbox",
+                      "value": ""
+                    }
+                  ],
+                  "name": "col14",
+                  "type": "col"
+                },
+                {
+                  "class": "col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6",
+                  "components": [
+                    {
+                      "cols": 30,
+                      "name": "TemelNeden1AltNeden2Aciklama",
+                      "rows": 2,
+                      "type": "textarea",
+                      "value": ""
+                    }
+                  ],
+                  "name": "col15",
+                  "type": "col"
+                }
+              ],
+              "name": "row7",
+              "type": "row"
+            },
+            {
+              "components": [
+                {
+                  "class": "col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6",
+                  "components": [
+                    {
+                      "component": "TemelNeden1AltNeden3",
+                      "name": "label1",
+                      "text": "Bilişsel bozukluk",
+                      "type": "label"
+                    },
+                    {
+                      "name": "TemelNeden1AltNeden3",
+                      "style": {
+                        "float": "right",
+                        "marginLeft": "10px"
+                      },
+                      "type": "checkbox",
+                      "value": ""
+                    }
+                  ],
+                  "name": "col12",
+                  "type": "col"
+                },
+                {
+                  "class": "col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6",
+                  "components": [
+                    {
+                      "cols": 30,
+                      "name": "TemelNeden1AltNeden3Aciklama",
+                      "rows": 2,
+                      "type": "textarea",
+                      "value": ""
+                    }
+                  ],
+                  "name": "col13",
+                  "type": "col"
+                }
+              ],
+              "name": "row6",
+              "type": "row"
+            },
+            {
+              "components": [
+                {
+                  "class": "col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6",
+                  "components": [
+                    {
+                      "component": "TemelNeden1AltNeden4",
+                      "name": "label2",
+                      "text": "Bilinç kaybı",
+                      "type": "label"
+                    },
+                    {
+                      "name": "TemelNeden1AltNeden4",
+                      "style": {
+                        "float": "right",
+                        "marginLeft": "10px"
+                      },
+                      "type": "checkbox",
+                      "value": ""
+                    }
+                  ],
+                  "name": "col10",
+                  "type": "col"
+                },
+                {
+                  "class": "col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6",
+                  "components": [
+                    {
+                      "cols": 30,
+                      "name": "TemelNeden1AltNeden4Aciklama",
+                      "rows": 2,
+                      "type": "textarea",
+                      "value": ""
+                    }
+                  ],
+                  "name": "col11",
+                  "type": "col"
+                }
+              ],
+              "name": "row5",
+              "type": "row"
+            },
+            {
+              "components": [
+                {
+                  "class": "col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6",
+                  "components": [
+                    {
+                      "component": "TemelNeden1AltNeden5",
+                      "name": "label3",
+                      "text": "Oturma ya da yatma sırasında",
+                      "type": "label"
+                    },
+                    {
+                      "name": "TemelNeden1AltNeden5",
+                      "style": {
+                        "float": "right",
+                        "marginLeft": "10px"
+                      },
+                      "type": "checkbox",
+                      "value": ""
+                    }
+                  ],
+                  "name": "col8",
+                  "type": "col"
+                },
+                {
+                  "class": "col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6",
+                  "components": [
+                    {
+                      "cols": 30,
+                      "name": "TemelNeden1AltNeden5Aciklama",
+                      "rows": 2,
+                      "type": "textarea",
+                      "value": ""
+                    }
+                  ],
+                  "name": "col9",
+                  "type": "col"
+                }
+              ],
+              "name": "row4",
+              "type": "row"
+            },
+            {
+              "components": [
+                {
+                  "class": "col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6",
+                  "components": [
+                    {
+                      "name": "TemelNeden1AltNeden6",
+                      "style": {
+                        "float": "right",
+                        "marginLeft": "10px"
+                      },
+                      "type": "checkbox",
+                      "value": ""
+                    },
+                    {
+                      "component": "TemelNeden1AltNeden6",
+                      "name": "label4",
+                      "text": "Refakatçiyi rahatsız etmek istememe",
+                      "type": "label"
+                    }
+                  ],
+                  "name": "col6",
+                  "type": "col"
+                },
+                {
+                  "class": "col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6",
+                  "components": [
+                    {
+                      "cols": 30,
+                      "name": "TemelNeden1AltNeden6Aciklama",
+                      "rows": 2,
+                      "type": "textarea",
+                      "value": ""
+                    }
+                  ],
+                  "name": "col7",
+                  "type": "col"
+                }
+              ],
+              "name": "row3",
+              "type": "row"
+            },
+            {
+              "components": [
+                {
+                  "class": "col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6",
+                  "components": [
+                    {
+                      "name": "TemelNeden1AltNeden7",
+                      "style": {
+                        "float": "right",
+                        "marginLeft": "10px"
+                      },
+                      "type": "checkbox",
+                      "value": ""
+                    },
+                    {
+                      "component": "TemelNeden1AltNeden7",
+                      "name": "label6",
+                      "text": "Uygunsuz terlik, ayakkabı kullanımı",
+                      "type": "label"
+                    }
+                  ],
+                  "name": "col4",
+                  "type": "col"
+                },
+                {
+                  "class": "col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6",
+                  "components": [
+                    {
+                      "cols": 30,
+                      "name": "TemelNeden1AltNeden7Aciklama",
+                      "rows": 2,
+                      "type": "textarea",
+                      "value": ""
+                    }
+                  ],
+                  "name": "col5",
+                  "type": "col"
+                }
+              ],
+              "name": "row2",
+              "type": "row"
+            },
+            {
+              "components": [
+                {
+                  "class": "col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6",
+                  "components": [
+                    {
+                      "name": "TemelNeden1AltNeden8",
+                      "style": {
+                        "float": "right",
+                        "marginLeft": "10px"
+                      },
+                      "type": "checkbox",
+                      "value": ""
+                    },
+                    {
+                      "component": "TemelNeden1AltNeden8",
+                      "name": "label7",
+                      "text": "Diğer...",
+                      "type": "label"
+                    }
+                  ],
+                  "name": "col2",
+                  "type": "col"
+                },
+                {
+                  "class": "col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6",
+                  "components": [
+                    {
+                      "cols": 30,
+                      "name": "TemelNeden1AltNeden8Aciklama",
+                      "rows": 2,
+                      "type": "textarea",
+                      "value": ""
+                    }
+                  ],
+                  "name": "col3",
+                  "type": "col"
+                }
+              ],
+              "name": "row1",
+              "type": "row"
+            }
+          ],
+          "name": "panel0",
+          "text": "Panel",
+          "type": "panel"
+        }
+      ],
+      "container": "main",
+      "type": "content"
+    }
+  ],
+  "layout": "Main",
+  "name": "HastaKaynakli"
+}

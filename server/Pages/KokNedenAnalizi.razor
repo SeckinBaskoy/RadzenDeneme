@@ -1,0 +1,65 @@
+﻿@page "/"
+@page "/kok-neden-analizi"
+@layout MainLayout
+@inherits RadzenDeneme.Pages.KokNedenAnaliziComponent
+
+@using Radzen
+@using Radzen.Blazor
+<RadzenContent Container="main">
+  <ChildContent>
+    <RadzenHeading Size="H3" Text="HASTA DÜŞMESİ KÖK NEDEN ANALİZİ FORMU">
+    </RadzenHeading>
+    <RadzenAccordion style="display: flex; margin-bottom: 6px; margin-top: 6px">
+      <Items>
+        <RadzenAccordionItem Icon="accessibility_new" Selected="true" Text="AYAKTAN HASTA">
+          <ChildContent>
+            <div class="row align-items-center" style="margin-bottom: 5px; margin-top: 5px; padding-bottom: 5px; padding-top: 5px;">
+              <div class="col-md-6 col-sm-6 col-6 col-lg-6 col-xl-6" style="bottom: 5px; top: 5px; vertical-align: middle">
+                <RadzenLabel Component="HastaSwitch" style="height: 28px; text-align: center; vertical-align: middle" Text="Hasta Kaynaklı">
+                </RadzenLabel>
+              </div>
+              <div class="col-md-6 col-sm-6 col-6 col-lg-6 col-xl-6" style="bottom: 5px; display: block; top: 5px; vertical-align: middle">
+                <RadzenSwitch style="display: block; float: none; height: 24px; margin-bottom: 10px; margin-top: 10px" Name="HastaSwitch" Change="@HastaSwitchChange">
+                </RadzenSwitch>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6 col-sm-6 col-lg-6 col-md-6 col-xl-6" style="bottom: 5px; top: 5px;">
+                <RadzenLabel Component="RefakatciSwitch" style="height: 28px; text-align: center; vertical-align: middle" Text="Refakatçi Kaynaklı">
+                </RadzenLabel>
+              </div>
+              <div class="col-6 col-sm-6 col-lg-6 col-md-6 col-xl-6" style="bottom: 5px; top: 5px;">
+                <RadzenSwitch style="display: block; float: none; height: 24px; margin-bottom: 10px; margin-top: 10px" Name="RefakatciSwitch">
+                </RadzenSwitch>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6" style="bottom: 5px; top: 5px;">
+                <RadzenLabel Component="PersonelSwitch" style="height: 28px; text-align: center; vertical-align: middle" Text="Personel kaynaklı">
+                </RadzenLabel>
+              </div>
+              <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6" style="bottom: 5px; top: 5px;">
+                <RadzenSwitch style="display: block; float: none; height: 24px; margin-bottom: 10px; margin-top: 10px" Name="PersonelSwitch">
+                </RadzenSwitch>
+              </div>
+            </div>
+          </ChildContent>
+        </RadzenAccordionItem>
+        <RadzenAccordionItem Icon="accessible" Selected="false" Text="YATAN HASTA">
+          <ChildContent>
+            <div class="row">
+              <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6" style="bottom: 10px; margin-bottom: 10px; margin-top: 10px; top: 10px; vertical-align: middle">
+                <RadzenLabel Component="TesisKaynakliSwitch" Text="Tesis Kaynaklı">
+                </RadzenLabel>
+              </div>
+              <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6" style="bottom: 10px; margin-bottom: 10px; margin-left: ; margin-top: 10px; top: 10px; vertical-align: middle">
+                <RadzenSwitch style="display: block; height: 24px; margin-bottom: 10px; margin-top: 10px" Name="TesisKaynakliSwitch">
+                </RadzenSwitch>
+              </div>
+            </div>
+          </ChildContent>
+        </RadzenAccordionItem>
+      </Items>
+    </RadzenAccordion>
+  </ChildContent>
+</RadzenContent>

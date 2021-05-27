@@ -1,0 +1,33 @@
+{
+  "cssFiles": [],
+  "dataSources": [],
+  "generator": "@radzen/blazor-server",
+  "https": false,
+  "ignore": [
+    ""
+  ],
+  "javaScriptFiles": [],
+  "layouts": [
+    "Login",
+    "Main"
+  ],
+  "logo": "",
+  "name": "RadzenDeneme",
+  "namespaces": [],
+  "navigation": [
+    "KokNedenAnalizi"
+  ],
+  "pages": [
+    "KokNedenAnalizi",
+    "HastaKaynakli"
+  ],
+  "port": 8000,
+  "serverLang": "cs",
+  "serverPort": 5000,
+  "serverProject": true,
+  "serverVersion": "5",
+  "startPage": "KokNedenAnalizi",
+  "theme": "default",
+  "themeSettings": null,
+  "title": "RadzenDeneme"
+}
